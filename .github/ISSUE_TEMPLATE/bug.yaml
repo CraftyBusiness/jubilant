@@ -3,7 +3,7 @@ description: Report a bug or defect
 title: "Bug Report: "
 labels: [ "Status: Open", "Type: Bug" ]
 body:
-  - theme: cerulean
+ theme: cerulean
   - type: textarea
     id: summary
     attributes:
