@@ -6,7 +6,7 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: '#Brief Summary'
+      label: '# Brief Summary'
       description: |
         Describe clearly and concisely a summary of the bug or defect.
     validations:
