@@ -4,7 +4,7 @@ title: "Bug Report: "
 labels: [ "Status: Open", "Type: Bug" ]
 body:
   - type: markdown
-  attributes:
+    attributes:
     value: "## Brief Summary"
   - type: textarea
     id: summary
