@@ -4,7 +4,7 @@ title: "Bug Report: "
 labels: [ "Status: Open", "Type: Bug" ]
 body:
   - type: markdown
-    attributes:
+    attributes: 
     value: |
       #Thanks for taking the time to fill out this bug report!
   - type: textarea
