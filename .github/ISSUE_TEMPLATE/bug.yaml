@@ -1,68 +1,20 @@
 name: Bug Report
-description: Report a bug or defect 
-title: "Bug Report: "
-labels: [ "Status: Open", "Type: Bug" ]
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
-    value: "## Brief Summary"
+      value: |
+        # Summary
   - type: textarea
-    id: summary
+    id: what-happened
     attributes:
-      label: " "
-      description: |
-        Describe clearly and concisely a summary of the bug or defect.
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: expected-outcome
-    attributes:
-      label: Expected Outcome
-      description: |
-        Provide a detailed summary of the expected behaviour 
-    validations:
-      required: true
-  - type: textarea
-    id: current-outcome
-    attributes:
-      label: Current Outcome
-      description: |
-        Provide a detailed summary of the actual behaviour 
-    validations:
-      required: true
-  - type: textarea
-    id: reproducer
-    attributes:
-      label: Reproducer
-      description: |
-        Please provide a simple to follow scenario 
-    validations:
-      required: true
-  - type: input
-    id: operating-system
-    attributes:
-      label: Operating System
-      description: What operating system and version are you using?
-      placeholder: Example - Windows 10 Pro
-    validations:
-      required: true
-  - type: input
-    id: jdk-version
-    attributes:
-      label: JDK Version
-      description: What JDK version and distribution are you using?
-      placeholder: Example - 
-    validations:
-      required: true
-  - type: dropdown
-    id: payara-distribution
-    validations:
-      required: true
-    attributes:
-      label: Distribution
-      description: What distribution are you using?
-      options:
-        - Server Full Profile
-        - Server Web Profile
-        - Micro
-        - Embedded All
