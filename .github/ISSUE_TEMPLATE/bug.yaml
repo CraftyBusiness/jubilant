@@ -7,7 +7,6 @@ body:
     id: summary
     attributes:
      label: Brief Summary
-     color: 0xFFEEBB
       description: |
         Describe clearly and concisely a summary of the bug or defect.
     validations:
