@@ -13,11 +13,11 @@ body:
      label: Brief Summary
       description: |
         Describe clearly and concisely a summary of the bug or defect.
-    validations:
+    validations: 
       required: true
   - type: textarea
     id: expected-outcome
-    attributes:
+    attributes: 
       label: Expected Outcome
       description: |
         Provide a detailed summary of the expected behaviour 
