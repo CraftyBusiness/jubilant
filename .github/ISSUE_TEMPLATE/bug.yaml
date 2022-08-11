@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bugz
 description: Report a bug or defect 
 title: "Bug Report: "
 labels: [ "Status: Open", "Type: Bug" ]
