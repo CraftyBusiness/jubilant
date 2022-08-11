@@ -3,6 +3,14 @@ description: Report a bug or defect
 title: "Bug Report: "
 labels: [ "Status: Open", "Type: Bug" ]
 body:
+  - type: markdown
+    id: Heading
+    attributes:
+     label: heading
+      description: |
+        Describe clearly and concisely a summary of the bug or defect.
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
