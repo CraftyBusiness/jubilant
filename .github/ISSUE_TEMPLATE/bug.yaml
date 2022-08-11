@@ -1,0 +1,8 @@
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: |
+        Describe clearly and concisely a summary of the bug or defect.
+    validations:
+      required: true
