@@ -5,7 +5,7 @@ labels: [ "Status: Open", "Type: Bug" ]
 body:
 - type: markdown
   attributes:
-    value: |
+    description: |
       Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: summary
