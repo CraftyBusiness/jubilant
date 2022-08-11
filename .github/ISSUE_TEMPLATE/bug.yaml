@@ -7,10 +7,6 @@ body:
     id: Heading
     attributes:
      label: heading
-      description: |
-        Describe clearly and concisely a summary of the bug or defect.
-    validations:
-      required: true
   - type: textarea
     id: summary
     attributes:
